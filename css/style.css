@@ -1,0 +1,169 @@
+.nav-item:hover{
+    background-color:#DEDDDE;
+}
+
+.nav-item>a{
+    line-height: 2;
+}
+
+.navbar{
+    padding-top: 0;
+    padding-bottom: 0;
+    line-height: 2;
+    padding-right: 1%;
+}
+
+.container{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+/*The image*/
+.img-fluid{
+    width:100%;
+    height:100%;
+}
+
+/* Div */
+.col-lg-3{
+    width: auto;
+    position: relative;
+}
+
+/* Anchor */
+div.col-lg-3>a{
+    width:203px;
+    height:150px;
+    margin-bottom: 0 !important;
+}
+
+/* Paragraphs */
+.font-weight-bold{
+    margin-top: 7px;
+}
+
+/* Making the opacity with box */
+/* .mb-4:hover img{
+    opacity: 0.4;
+}
+
+img{
+    opacity:1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;   
+} */
+
+/* .changer{
+    position: absolute;
+    left: 20px;
+    top:5px;
+    background-color: gray;
+    width:110px;
+    height:140px;
+    opacity:0;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden; 
+} */
+
+.changer{
+    position: absolute;
+    left: 20px;
+    top:5px;
+    background: rgba(128, 128, 128, 0);
+    color:rgba(255,255,255,0) !important;
+    width:110px;
+    height:140px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    font-size: 11px;
+    padding-top: 17%;
+    padding-left: 5px;
+}
+
+.mb-4:hover .changer{
+    background: rgba(128, 128, 128, 0.6);
+    color: rgba(255,255,255,1) !important;
+}
+
+/* Footer content */
+span{
+    padding-left: 18px;
+    line-height: 2;
+    color:white;
+}
+
+
+a.chl{
+    line-height: 1.8;
+    margin-left: 30%;
+    width: 100%;
+}
+
+ul{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+}
+li{
+    line-height: 0.85;
+}
+
+.dots{
+    margin-bottom:10px;
+    line-height: 1;    
+    list-style-type: disc;
+    color:rgb(255, 255, 255) !important;
+}
+.dots>a{
+    color:rgb(255, 255, 255) !important;
+}
+#icons{
+    line-height: 0;
+    padding-left: 2px;
+    width: 60%;
+}
+
+.bue{    
+    padding: 0;
+    font-size: 40px;
+    text-align: center;
+    margin-right: 15px;
+    float:left;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+.bur{
+    line-height: 0.8 !important;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    color: #55ACEE;
+}
+
+.fa-google-plus-square{
+    background: white;
+    color: #D02943;
+}
+
+.fa-linkedin{
+    background: #fff;
+    color: #3F78B6;
+}
+
+
+.team{
+    width:200px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+#art{
+    margin-bottom: 10px;
+}
